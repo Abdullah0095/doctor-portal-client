@@ -4,7 +4,7 @@ import bannerBG from "../../../assets/images/bg.png";
 
 const Banner = () => {
   return (
-    <div className="hero bg-base-200 mt-5">
+    <div className="hero bg-base-100 mt-3">
       <div style={{backgroundImage: `url(${bannerBG})`,backgroundRepeat: 'no-repeat',backgroundSize:'600px'}} className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={chair}
@@ -17,7 +17,7 @@ const Banner = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn btn-accent bg-gradient-to-l from-cyan-500 to-blue-500 text-white">Get Started</button>
         </div>
       </div>
     </div>
