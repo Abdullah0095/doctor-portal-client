@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import clock from "../../../assets/icons/clock.svg";
 import marker from "../../../assets/icons/marker.svg";
 import phone from "../../../assets/icons/phone.svg";
@@ -30,9 +30,9 @@ const InfoCard = () => {
 
   return (
     <div className="grid gap-6 mt-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-      {cardData.map((card) => (
+      {cardData.map(card => 
         <InfoCardDetail key={card.id} card={card}></InfoCardDetail>
-      ))}
+      )}
     </div>
   );
 };
