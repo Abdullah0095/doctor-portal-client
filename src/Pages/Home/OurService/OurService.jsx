@@ -50,7 +50,7 @@ function ServiceDetail({service}) {
     const {title,description,image} = service;
   return (
     <>
-      <div className="card w-96 bg-gray-100 shadow-xl hover:bg-gray-200">
+      <div className=" card w-96 bg-gray-100 shadow-xl hover:bg-gray-200">
         <figure className="px-10 pt-10">
           <img
             src={image}
