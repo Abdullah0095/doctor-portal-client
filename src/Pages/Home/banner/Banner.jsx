@@ -1,7 +1,7 @@
 // import React from "react";
 import chair from "../../../assets/images/chair.png";
 import bannerBG from "../../../assets/images/bg.png";
-import clock from '../../../assets/icons/clock.svg';
+// import clock from '../../../assets/icons/clock.svg';
 
 const Banner = () => {
   return (
