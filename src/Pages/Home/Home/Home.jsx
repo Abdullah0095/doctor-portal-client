@@ -2,6 +2,7 @@
 
 
 import DentalBanner from "../DentalBanner/DentalBanner";
+import HomeContact from "../HomeContact/HomeContact";
 import InfoCard from "../InfoCard/InfoCard";
 import MakeAppontment from "../MakeAppointment/MakeAppontment";
 import OurService from "../OurService/OurService";
@@ -17,6 +18,7 @@ const Home = () => {
             <DentalBanner />
             <MakeAppontment />
             <Testimonial />
+            <HomeContact />
             
         </div>
     );
